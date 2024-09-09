@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "homepage": "https://KarimaTouhami.github.io/alx-react",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  }
+}
